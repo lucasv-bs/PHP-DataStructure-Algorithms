@@ -1,6 +1,6 @@
 <?php
 
-class Stack {
+class StackArray {
     private $items;
 
     public function __construct() {
@@ -51,7 +51,7 @@ class Stack {
 }
 
 
-$stack = new Stack;
+$stack = new StackArray;
 echo $stack->size()."\n";
 echo $stack->isEmpty() ? "empty\n" : "filled\n";
 

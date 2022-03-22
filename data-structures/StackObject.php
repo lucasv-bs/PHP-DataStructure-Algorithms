@@ -1,6 +1,6 @@
 <?php
 
-class Stack {
+class StackObject {
     private $items;
     private $count;
 
@@ -64,7 +64,7 @@ class Stack {
 }
 
 
-$stack = new Stack;
+$stack = new StackObject;
 echo $stack->isEmpty() ? "empty\n" : "filled\n";
 
 $stack->push(10);
